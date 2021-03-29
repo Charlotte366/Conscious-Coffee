@@ -46,8 +46,8 @@ nav {
   height: 30px;
 }
 
-.item_icon {
-  display: inline-block;
+.item_icon img {
+  height: 50px;
   margin: 55px;
   margin-bottom: 10px;
   justify-content: center;
