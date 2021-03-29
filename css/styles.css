@@ -48,10 +48,13 @@ nav {
 
 .item_icon {
   display: inline-block;
-  height: -40px;
   margin: 55px;
   margin-bottom: 10px;
   justify-content: center;
+}
+
+.img_icon img {
+  height: 40px;
 }
 
 .item_opening1 {
