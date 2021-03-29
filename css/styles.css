@@ -87,7 +87,6 @@ nav {
 
   .container_welcome {
     display: flex;
-    flex-direction: column;
     margin: 0px;
     align-items: center;
     justify-content: space-around;
@@ -96,7 +95,7 @@ nav {
 
 .img-header img {
   height: 400px;
-  display: inline-block;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
