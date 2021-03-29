@@ -13,10 +13,14 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .img-header img {
-  height: 400px;
+  height: 600px;
+  max-width: 100%;
 }
 
 .container_about,
@@ -40,4 +44,12 @@ nav {
 .square {
   width: 30px;
   height: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
