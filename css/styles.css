@@ -41,9 +41,23 @@ a {
   align-items: center;
 }
 
+.container_opening {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item_opening1 {
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .container_about,
 .container_icon,
-.container_opening .container_welcome {
+.container_opening,
+.container_welcome .item_opening {
   background-color: beige;
 }
 
@@ -69,10 +83,6 @@ nav {
   margin: 55px;
   margin-bottom: 10px;
   justify-content: center;
-}
-
-.item_opening1 {
-  height: 200px;
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
