@@ -104,7 +104,9 @@ nav {
   }
 
   .img-header,
-  .container_welcome {
+  .container_welcome,
+  .container_opening,
+  .item_opening {
     display: flex;
     flex-direction: column;
     justify-content: center;
