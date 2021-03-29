@@ -4,6 +4,16 @@ body {
   padding: 0;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* Links */
 a {
   text-decoration: none;
@@ -18,18 +28,22 @@ a {
   justify-content: space-around;
 }
 
-.img-header img,
 .container_welcome {
-  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-header img {
+  height: 400px;
   display: inline-block;
   justify-content: space-around;
   align-items: center;
-  max-width: 100%;
 }
 
 .container_about,
 .container_icon,
-.container_opening {
+.container_opening .container_welcome {
   background-color: beige;
 }
 
