@@ -54,6 +54,15 @@ a {
   align-items: center;
 }
 
+.container_icon {
+  align-items: center;
+}
+
+.item_icon img {
+  height: 50px;
+  margin: 55px;
+}
+
 .container_about,
 .container_icon,
 .container_opening,
@@ -76,13 +85,6 @@ nav {
 .square {
   width: 30px;
   height: 30px;
-}
-
-.item_icon img {
-  height: 50px;
-  margin: 55px;
-  margin-bottom: 10px;
-  justify-content: center;
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
