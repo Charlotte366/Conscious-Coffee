@@ -56,3 +56,27 @@ nav {
 .item_opening1 {
   height: 200px;
 }
+
+@media (min-width: 600px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-with: 600px) {
+}
+
+@media (max-width: 480px) {
+  .p {
+    font-size: 16px;
+  }
+
+  main {
+    background-color: black;
+  }
+
+  .img-header .container_welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+  }
+}
