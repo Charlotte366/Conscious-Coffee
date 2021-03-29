@@ -18,8 +18,14 @@ a {
   justify-content: space-around;
 }
 
-.img-header img {
+.img-header img,
+.container_welcome {
   height: 600px;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  margin: 75px;
+  margin-bottom: 10px;
   max-width: 100%;
 }
 
@@ -72,13 +78,12 @@ nav {
     background-color: black;
   }
 
-  .img-header .container_welcome {
+  .img-header,
+  .container_welcome {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    max-width: 600px;
-    margin: 55px;
-    margin-bottom: 10px;
-    object-fit: cover;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
   }
 }
