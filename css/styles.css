@@ -80,7 +80,8 @@ nav {
     font-size: 16px;
   }
 
-  .img-header {
+  .img-header,
+  .container_welcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
