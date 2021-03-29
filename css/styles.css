@@ -77,6 +77,8 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 55px;
+    margin-bottom: 10px;
+    object-fit: cover;
   }
 }
