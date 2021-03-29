@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+.logo-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  color: black;
+}
+
+.img-header img {
+  height: 400px;
+}
+
+.container_about,
+.container_contact,
+.container_opening {
+  background-color: beige;
+}
+
+nav {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+}
