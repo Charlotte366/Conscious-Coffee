@@ -78,13 +78,6 @@ nav {
 }
 
 @media only screen and (min-with: 600px) {
-}
-
-@media (max-width: 480px) {
-  .p {
-    font-size: 16px;
-  }
-
   .container_welcome {
     display: flex;
     margin: 0px;
@@ -92,7 +85,6 @@ nav {
     justify-content: space-around;
   }
 }
-
 .img-header img {
   height: 400px;
   flex-direction: column;
