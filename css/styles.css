@@ -75,7 +75,8 @@ nav {
   .img-header .container_welcome {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0px;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
