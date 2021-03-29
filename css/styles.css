@@ -47,7 +47,7 @@ nav {
 }
 
 @media only screen and (min-width: 600px) {
-  .item {
+  .container_opening {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
