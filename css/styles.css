@@ -134,7 +134,8 @@ nav {
   .img-header,
   .container_welcome,
   .container_opening,
-  .item_opening {
+  .item_opening,
+  .container_about {
     display: flex;
     flex-direction: column;
     justify-content: center;
