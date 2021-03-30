@@ -131,6 +131,10 @@ nav {
     font-size: 16px;
   }
 
+  .img-header img {
+    width: 100%;
+  }
+
   .img-header,
   .container_welcome,
   .container_opening,
@@ -142,8 +146,5 @@ nav {
     margin: 0px;
     align-items: center;
     margin-top: 10px;
-  }
-  .img-header img {
-    width: 100%;
   }
 }
