@@ -57,6 +57,7 @@ a {
   height: 200px;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10px;
 }
 
 .container_icon {
@@ -64,6 +65,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
