@@ -55,12 +55,16 @@ a {
 }
 
 .container_icon {
+  display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item_icon img {
   height: 50px;
   margin: 55px;
+  margin: 30px;
 }
 
 .container_about,
