@@ -48,6 +48,13 @@ a {
   justify-content: space-around;
 }
 
+.container_about {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
 .item_opening1 {
   height: 200px;
   justify-content: space-around;
@@ -59,6 +66,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .item_icon img {
@@ -71,7 +79,7 @@ a {
 .container_icon,
 .container_opening,
 .container_welcome .item_opening {
-  background-color: beige;
+  background-color: grey;
 }
 
 nav {
