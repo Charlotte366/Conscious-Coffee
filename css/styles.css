@@ -46,7 +46,8 @@ a:hover {
   align-items: center;
 }
 
-.container_opening {
+.container_opening,
+.container_contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,6 +117,20 @@ nav a {
   height: 30px;
 }
 
+.brb {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.containerForm {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
 @media (min-width: 600px) and (max-width: 1200px) {
 }
 
@@ -175,6 +190,7 @@ nav a {
 
   ul {
     display: flex;
+    justify-content: center;
   }
 
   li {
