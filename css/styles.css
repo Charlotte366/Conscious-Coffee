@@ -200,7 +200,7 @@ nav a {
   .container_opening,
   .item_opening,
   .container_about,
-  .container_form {
+  .containerForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
