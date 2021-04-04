@@ -42,12 +42,59 @@
             </section>
         
 
-        <section class="container_about">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Ipsam repellat quis illum, vero recusandae totam laboriosam reiciendis 
-            beatae mollitia ullam doloremque at libero? Impedit possimus nisi quibusdam 
-            saepe voluptas dolore?</p>
+            <section class="container_contact">
+            <div class="contact1">
+                  <h2>Contact</h2>
+                  <p>CONSCIOUS COFFEES</p>
+                  <p>Sunfun 213</p>
+                  <p>N-5003 Bergen</p>
+                  <p>connsciouscoffees@mail.no</p>
+                  
+                </div>
+        
+            <div class="containerForm">
+                <form id="contactForm">
+                  <div>
+                    <label>
+                      Name (required)
+                      <input name="name" id="name"/>
+                    </label>
+                    <div class="form-error" id="nameError">Please enter your name</div>
+                  </div>
+        
+                  <div>
+                    <label>
+                      Last name (required)
+                      <input name="lastName" id="lastName"/>
+                    </label>
+                    <div class="form-error" id="lastNameError">Please enter you last name</div>
+                  </div>
+        
+                  <div>
+                    <label>
+                      Email
+                      <input name="email" id="email"/>
+                    </label>
+                    <div class="form-error" id="emailError">Please enter a valid email adress</div>
+                  </div>
+        
+                <div class="containerMessage">
+               
+          
+                  <legend>*Send us a message, your message must be a minemum of 10 characters</legend>
+                  <textarea placeholder="Message"></textarea>
+        
+                  <div class="character-count">Character count:<span>0</span></div>
+        
+                  <div>
+                    <button type="submit" disabled>Send</button>
+                </div>
+        
+                </div>
+                  
+                </form> 
+            </div>   
+            
 
     </section>
   

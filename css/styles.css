@@ -81,10 +81,29 @@ a:hover {
 }
 
 .container_about,
+.container_contact,
 .container_icon,
 .container_opening,
 .container_welcome .item_opening {
   background-color: grey;
+}
+
+.container_contact {
+  display: flex;
+}
+
+.contact1 {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.containerForm {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
 }
 
 nav,
