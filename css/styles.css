@@ -24,12 +24,6 @@ a:hover {
   color: blue;
 }
 
-.form-error {
-  display: none;
-  color: red;
-  margin-top: 2px;
-}
-
 .logo-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
@@ -59,8 +53,7 @@ a:hover {
   justify-content: space-around;
 }
 
-.container_about,
-.container_contact {
+.container_about {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -70,30 +63,6 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
-}
-
-.container_contact {
-  display: flex;
-}
-
-.contact1 {
-  width: 50%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-
-.containerForm {
-  width: 50%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-
-button {
-  background-color: var(--dark-blue);
-  color: var(--white);
-  padding: var(--horizontal-space);
 }
 
 .container_icon {
@@ -185,9 +154,7 @@ nav a {
   .container_opening,
   .item_opening,
   .container_about,
-  .contact1,
-  .containerForm,
-  .containerMessage {
+  .container_contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
