@@ -181,7 +181,8 @@ nav a {
 }
 .img-header img,
 .contact1,
-.containerMessage {
+.containerMessage,
+.containerForm {
   height: 400px;
   flex-direction: column;
   justify-content: space-around;
