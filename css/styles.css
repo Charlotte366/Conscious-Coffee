@@ -190,7 +190,8 @@ nav a {
   .container_welcome,
   .container_opening,
   .item_opening,
-  .container_about {
+  .container_about,
+  .container_icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
