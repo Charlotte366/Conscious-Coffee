@@ -106,6 +106,18 @@ a:hover {
   background-color: white;
 }
 
+.form-error {
+  display: none;
+  color: red;
+  margin-top: 2px;
+}
+
+button {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: var(--horizontal-space);
+}
+
 nav,
 #hamburger-menu {
   display: none;
