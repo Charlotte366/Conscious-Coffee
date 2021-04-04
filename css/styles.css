@@ -10,6 +10,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -17,6 +18,10 @@ h5 {
 /* Links */
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: blue;
 }
 
 .logo-text {
@@ -163,5 +168,15 @@ nav a {
 
   .hamburger-menu {
     display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  nav a {
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
   }
 }
