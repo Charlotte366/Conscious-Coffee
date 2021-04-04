@@ -24,6 +24,12 @@ a:hover {
   color: blue;
 }
 
+.form-error {
+  display: none;
+  color: red;
+  margin-top: 2px;
+}
+
 .logo-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
@@ -53,7 +59,8 @@ a:hover {
   justify-content: space-around;
 }
 
-.container_about {
+.container_about,
+.container_contact {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -63,6 +70,30 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
+}
+
+.container_contact {
+  display: flex;
+}
+
+.contact1 {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.containerForm {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+button {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: var(--horizontal-space);
 }
 
 .container_icon {
@@ -81,50 +112,11 @@ a:hover {
 }
 
 .container_about,
-.container_contact,
 .container_icon,
 .container_opening,
+.container_contact,
 .container_welcome .item_opening {
   background-color: grey;
-}
-
-.container_contact {
-  display: flex;
-}
-
-.containerForm {
-  width: 50%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-
-.form-error {
-  display: none;
-  color: red;
-  margin-top: 2px;
-}
-
-input {
-  width: 100%;
-  margin-top: 5px;
-  margin-right: 20x;
-  padding: 5px;
-  font-size: 16px;
-}
-
-textarea {
-  width: 100%;
-  margin-top: 5px;
-  margin-right: 20x;
-  padding: 5px;
-  font-size: 16px;
-}
-
-button {
-  background-color: var(--dark-blue);
-  color: var(--white);
-  padding: var(--horizontal-space);
 }
 
 nav,
