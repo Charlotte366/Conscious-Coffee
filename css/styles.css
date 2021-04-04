@@ -131,6 +131,12 @@ nav a {
   background-color: white;
 }
 
+.form-error {
+  display: none;
+  color: red;
+  margin-top: 2px;
+}
+
 @media (min-width: 600px) and (max-width: 1200px) {
 }
 
