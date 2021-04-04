@@ -169,7 +169,9 @@ nav a {
 .containerMessage,
 .containerForm,
 .character-count,
-.container_contact {
+.container_contact,
+.contact1,
+.containerForm {
   height: 400px;
   flex-direction: column;
   justify-content: space-around;
