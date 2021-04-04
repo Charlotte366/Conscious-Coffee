@@ -176,14 +176,6 @@ nav a {
   align-items: center;
 }
 
-.contact1,
-.containerForm,
-.containerMessage {
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 @media (min-width: 600px) and (max-width: 1200px) {
 }
 
@@ -199,7 +191,10 @@ nav a {
   .container_welcome,
   .container_opening,
   .item_opening,
-  .container_about {
+  .container_about,
+  .contact1,
+  .containerForm,
+  .containerMessage {
     display: flex;
     flex-direction: column;
     justify-content: center;
