@@ -181,9 +181,14 @@ nav a {
 }
 .img-header img,
 .contact1,
-.containerMessage,
-.containerForm {
+.containerMessage {
   height: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerForm {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
