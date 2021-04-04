@@ -82,15 +82,26 @@ a {
   background-color: grey;
 }
 
-nav {
-  display: none;
-}
-
+nav,
 #hamburger-menu {
   display: none;
 }
 
 #hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
   display: block;
 }
 
@@ -131,6 +142,22 @@ nav {
     font-size: 16px;
   }
 
+  nav a {
+    display: inline-block;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    display: inline-block;
+  }
+
   .img-header,
   .container_welcome,
   .container_opening,
@@ -143,4 +170,8 @@ nav {
     align-items: center;
     margin-top: 10px;
   }
+}
+
+body {
+  background: hotpink;
 }
