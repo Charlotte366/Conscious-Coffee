@@ -148,13 +148,7 @@ input {
   width: 95%;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
-}
-
-@media (min-width: 600px) and (max-width: 1200px) {
-}
-
-@media only screen and (min-with: 600px) {
+@media only screen and (min-with: 600px) and (max-width: 1200px) {
   .container_welcome,
   .container_contact {
     display: flex;
@@ -168,12 +162,6 @@ input {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-
-@media (min-width: 600px) and (max-width: 1200px) {
-}
-
-@media only screen and (min-with: 600px) {
 }
 
 @media (max-width: 480px) {
