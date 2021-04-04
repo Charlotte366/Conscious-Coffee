@@ -92,14 +92,6 @@ a:hover {
   display: flex;
 }
 
-.contact1 {
-  width: 50%;
-  height: 80px;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-
 .containerForm {
   width: 50%;
   margin: 1rem;
