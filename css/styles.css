@@ -168,6 +168,9 @@ input {
   justify-content: space-around;
   align-items: center;
 }
+.img-header2 img {
+  height: 500px;
+}
 
 @media (max-width: 480px) {
   .p {
