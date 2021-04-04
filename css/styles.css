@@ -170,7 +170,9 @@ nav a {
 }
 
 @media only screen and (min-with: 600px) {
-  .container_welcome {
+  .container_welcome,
+  .containerForm,
+  .containerMessage {
     display: flex;
     margin: 0px;
     align-items: center;
@@ -199,9 +201,7 @@ nav a {
   .container_welcome,
   .container_opening,
   .item_opening,
-  .container_about,
-  .containerForm,
-  .containerMessage {
+  .container_about {
     display: flex;
     flex-direction: column;
     justify-content: center;
