@@ -88,11 +88,11 @@ a:hover {
 }
 
 nav,
-#hamburger-menu {
+.hamburger-menu {
   display: none;
 }
 
-#hamburger-menu:checked ~ nav {
+.hamburger-menu:checked ~ nav {
   display: block;
 }
 
@@ -172,6 +172,12 @@ nav a {
 
   ul {
     display: flex;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   nav a {
