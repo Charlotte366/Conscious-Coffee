@@ -168,7 +168,8 @@ nav a {
 .contact1,
 .containerMessage,
 .containerForm,
-.character-count {
+.character-count,
+.container_contact {
   height: 400px;
   flex-direction: column;
   justify-content: space-around;
@@ -190,8 +191,7 @@ nav a {
   .container_welcome,
   .container_opening,
   .item_opening,
-  .container_about,
-  .container_icon {
+  .container_about {
     display: flex;
     flex-direction: column;
     justify-content: center;
