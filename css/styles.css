@@ -46,11 +46,6 @@ a:hover {
   align-items: center;
 }
 
-.img-header2 img {
-  height: 500px;
-  width: 500px;
-}
-
 .container_opening,
 .container_contact {
   display: flex;
@@ -168,12 +163,6 @@ input {
   justify-content: space-around;
   align-items: center;
 }
-.img-header2 img {
-  height: 400px;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
 
 @media (max-width: 480px) {
   .p {
@@ -181,7 +170,7 @@ input {
   }
 
   .img-header,
-  .img-header2 .container_welcome,
+  .container_welcome,
   .container_opening,
   .item_opening,
   .container_about,
