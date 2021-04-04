@@ -92,7 +92,7 @@ nav,
   display: none;
 }
 
-.hamburger-menu:checked ~ nav {
+#hamburger-menu:checked ~ nav {
   display: block;
 }
 
