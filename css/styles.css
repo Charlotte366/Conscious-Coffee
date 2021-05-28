@@ -160,7 +160,8 @@ input {
     justify-content: space-around;
   }
 }
-.img-header img {
+.img-header img,
+.img-headerthis img {
   height: 400px;
   flex-direction: column;
   justify-content: space-around;
