@@ -164,7 +164,10 @@ input {
   justify-content: space-around;
   align-items: center;
 }
-
+.container_about,
+.container_icon,
+.container_contact,
+.container_opening,
 footer {
   background-color: lightgrey;
 }
