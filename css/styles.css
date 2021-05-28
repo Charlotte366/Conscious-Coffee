@@ -49,6 +49,16 @@ a:hover {
   align-items: center;
 }
 
+.img-headerthis img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 50%;
+
+  object-fit: cover;
+}
+
 .container_opening,
 .container_contact {
   display: flex;
@@ -80,14 +90,6 @@ a:hover {
   height: 50px;
   margin: 55px;
   margin: 30px;
-}
-
-.container_about,
-.container_icon,
-.container_opening,
-.container_contact,
-.container_welcome .item_opening {
-  background-color: lightgrey;
 }
 
 nav,
@@ -163,6 +165,10 @@ input {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+footer {
+  background-color: lightgrey;
 }
 
 @media (max-width: 480px) {
