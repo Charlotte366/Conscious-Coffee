@@ -18,6 +18,13 @@ h5 {
   margin: 0 auto;
 }
 
+.container_about,
+.container_icon,
+.container_contact,
+.container_opening {
+  background-color: lightgrey;
+}
+
 /* Links */
 a {
   text-decoration: none;
@@ -189,12 +196,6 @@ textarea {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-.container_about,
-.container_icon,
-.container_contact,
-.container_opening {
-  background-color: lightgrey;
 }
 
 @media (max-width: 480px) {
