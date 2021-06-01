@@ -57,7 +57,6 @@ a:hover {
   width: 50%;
 }
 
-.container_opening,
 .container_contact {
   display: flex;
   flex-direction: column;
@@ -65,14 +64,28 @@ a:hover {
   justify-content: space-around;
 }
 
-.container_about {
-  margin-top: 10px;
+.container_opening {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.item_opening {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 
 .item_opening1 {
-  height: 200px;
-  justify-content: space-around;
-  align-items: center;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 7px solid white;
+}
+
+.container_about {
   margin-top: 10px;
 }
 
