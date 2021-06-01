@@ -182,15 +182,6 @@ textarea {
   border-radius: 5px;
 }
 
-@media only screen and (min-with: 600px) and (max-width: 1200px) {
-  .container_welcome,
-  .container_contact {
-    display: flex;
-    margin: 0px;
-    align-items: center;
-    justify-content: space-around;
-  }
-}
 .img-header img {
   height: 400px;
   flex-direction: column;
