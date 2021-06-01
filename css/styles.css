@@ -67,6 +67,11 @@ img {
   height: auto;
 }
 
+.input8 {
+  margin: 3px;
+  width: 50px;
+}
+
 .img-headerthis img {
   display: block;
   margin-left: auto;
