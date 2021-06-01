@@ -219,6 +219,12 @@ footer {
     border-radius: 10px;
   }
 
+  .containerForm {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+
   .img-headerthis img {
     width: 100%;
   }
