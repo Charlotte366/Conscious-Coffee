@@ -36,6 +36,12 @@ a:hover {
   justify-content: space-around;
 }
 
+.containernav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .container_welcome {
   display: flex;
   align-items: center;
@@ -187,8 +193,7 @@ textarea {
 .container_about,
 .container_icon,
 .container_contact,
-.container_opening,
-footer {
+.container_opening {
   background-color: lightgrey;
 }
 
