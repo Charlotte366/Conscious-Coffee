@@ -18,6 +18,7 @@ h5 {
   margin: 0 auto;
 }
 
+.container_welcome2,
 .container_about,
 .container_icon,
 .container_contact,
@@ -53,6 +54,18 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 30px;
+}
+
+.container_welcome2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.welcome_text {
+  padding: 20px;
 }
 
 .img-header img {
@@ -62,8 +75,13 @@ a:hover {
   align-items: center;
 }
 
+.thisimg img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 img {
-  max-width: 100%;
   height: auto;
 }
 
@@ -92,6 +110,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .item_opening {
@@ -110,6 +129,7 @@ img {
 
 .container_about {
   margin-top: 10px;
+  padding: 40px;
 }
 
 .container_icon {
@@ -121,9 +141,9 @@ img {
 }
 
 .item_icon img {
-  height: 40px;
-  margin: 55px;
-  margin: 30px;
+  height: 30px;
+  padding-right: 10px;
+  padding-top: 5px;
 }
 
 nav,
@@ -202,7 +222,9 @@ textarea {
   .container_opening,
   .item_opening,
   .container_about,
-  .container_contact {
+  .container_contact,
+  .container_welcome2,
+  .welcome_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,6 +233,9 @@ textarea {
     margin-top: 10px;
   }
 
+  .item_opening1 {
+    margin: auto;
+  }
   input {
     width: 100%;
     margin-top: 5px;
@@ -228,6 +253,12 @@ textarea {
 
   .img-headerthis img {
     width: 100%;
+  }
+  .container_welcome2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px;
   }
 }
 
@@ -255,6 +286,14 @@ textarea {
     font-size: x-large;
     color: black;
     font-weight: bolder;
+  }
+  .thisimg {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
